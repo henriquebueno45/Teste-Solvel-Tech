@@ -12,7 +12,7 @@ def save():
     nome_cliente = input("Digite o nome do cliente: ")
     cpf = int(input("Digite o CPF do cliente: "))
     email = input("Digite o email do cliente: ")
-    celular = input("Digite o celular do cliente: ")
+    celular = int(input("Digite o celular do cliente: "))
 
     # Estrutura o dicionário com as informações do cliente
     new_data = {
